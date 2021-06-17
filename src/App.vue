@@ -38,7 +38,7 @@ export default {
     .curso-main-container
       padding-bottom: 80px !important
 .banner-interno__titulo__icono i
-  color: #ffffff !important
+  color: #12263f !important
 .banner-principal__componente h1
   color: white !important
 .banner-principal__descripcion p
@@ -47,4 +47,8 @@ export default {
   padding: 2rem 2rem 0 0 !important
 .titulo-principal__numero span
   color: #31326F !important
+.banner-interno__titulo__icono
+  background-color: #fff !important
+.banner-interno__titulo h1
+  color: #ffffff !important
 </style>
