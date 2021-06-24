@@ -16,7 +16,7 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-play-circle',
+        icono: 'fas fa-info',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
@@ -126,59 +126,38 @@ export default {
     liderEquipo: {
       nombre: 'Maria Camila Garcia Santamaria',
       cargo: 'Líder del equipo',
+      centro: 'Dirección General',
     },
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor pedagógico',
+        cargo: 'Asesor metodológico y pedagógico',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
       {
-        nombre: 'Astrid Lili Puerta',
+        nombre: 'María Cristina Hurtado Zúñiga',
         cargo: 'Experta temática',
-        centro: 'Centro Agropecuario de Buga',
-        regional: 'Regional valle',
+        centro: 'Centro de Diseño Tecnológico Industrial del SENA',
+        regional: 'Regional Valle',
       },
       {
-        nombre: 'Javier Enrique Santana',
-        cargo: 'Experto temático',
-        centro: 'Centro de Gestión Industrial',
+        nombre: 'Cristian Metaute Medina',
+        cargo: 'Diseñador Instruccional',
+        centro: 'Centro para la Industria de la Comunicación Gráfica del SENA',
         regional: 'Regional Distrito Capital',
       },
       {
-        nombre: 'Michael Andrés Cortés Caro',
-        cargo: 'Experto temático',
-        centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
-      },
-      {
-        nombre: 'Mauricio Jiménez Fajardo',
-        cargo: 'Experto temático',
-        centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
-      },
-      {
-        nombre: 'Manuel Alejandro Garzón Cárdenas',
-        cargo: 'Experto temático',
-        centro: 'Deutsche Gesellschaft für',
-        regional: 'Internationale Zusammenarbeit (GIZ)',
-      },
-      {
-        nombre: 'Liliana Victoria Morales Gualdrón',
-        cargo: 'Diseñador instruccional',
-        centro: 'Centro para la Industria y la Comunicación Gráfica',
-        regional: 'Regional Distrito Capital',
-      },
-      {
-        nombre: 'Carlos Andrés Rodríguez',
-        cargo: 'Evaluador instruccional',
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Revisor Metodológico y Pedagógico',
         centro: 'Centro de Diseño y Metrología',
         regional: 'Regional Distrito Capital',
       },
       {
-        nombre: 'Julieth Paola Vital López',
-        cargo: 'Revisora de estilo',
-        centro: 'Centro para la Industria de la Comunicación Gráfica',
-        regional: 'Regional Distrito Capital',
+        nombre: 'Uriel Darío González Montoya',
+        cargo: 'Acompañamiento pedagógico',
+        centro: 'Centro Agropecuario La Granja',
+        regional: 'Regional Tolima',
       },
     ],
     desarrolloProducto: [
@@ -190,27 +169,63 @@ export default {
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Integración de recursos y pruebas',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios',
+        regional: 'Regional Tolima',
+      },
+      {
+        nombre: ['Carlos Julián Ramírez Benítez'],
+        cargo: 'Diseño web',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
       {
-        nombre: ['Adriana Rincón Avendaño', 'Eulises Orduz Amezquita'],
-        cargo: 'Diseño web y Producción Audiovisual',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-      {
-        nombre: 'Edward Leonardo Pico Cabra',
+        nombre: 'Luis Jesús Pérez Madariaga',
         cargo: 'Desarrollo Front-End',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios',
+        regional: 'Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Caceres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
+      {
+        nombre: 'Victor Cardenas',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
+      {
+        nombre: 'Arnulfo Beltrán',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
+      {
+        nombre: 'Maria Isabel Román Rueda',
+        cargo: 'Validación de diseño y contenido',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Brayan Stiven Pinto Diaz',
-        cargo: ['Desarrollo front-end', 'Validación de recursos'],
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: ['Validación y vinculación en plataforma LMS'],
         centro: 'Centro de comercio y servicios',
         regional: 'Regional Tolima',
       },
@@ -326,23 +341,27 @@ export default {
   ],
   complementario: [
     {
-      texto: 'Algunas reflexiones: didáctica y STEM',
+      texto:
+        'Pelejero, M. (2018). Educación STEAM, ABP y aprendizaje cooperativo en Tecnología en 2° ESO. [Tesis de máster, Universidad Internacional de La Rioja, Valencia] Repositorio de la UNIR.',
       tipo: 'Paper digital',
       link: 'https://reunir.unir.net/handle/123456789/6838',
     },
     {
-      texto: 'Algunas reflexiones: didáctica y STEM',
+      texto:
+        'López, V.; Couso, D. y Simarro, C. (2020). Educación STEM en y para el mundo digital. El papel de las herramientas digitales en el desempeño de prácticas científicas, ingenieriles y matemáticas. Revista educación a Distancia, 20(62).',
       tipo: 'Artículo',
       link: 'http://dx.doi.org/10.6018/red.410011',
     },
     {
-      texto: 'Aprendizaje basado en proyectos (ABP)',
+      texto:
+        'Trujillo, F. (2015). Aprendizaje basado en proyectos. Infantil, Primaria y Secundaria. Ministerio de Educación y Formación Profesional.',
       tipo: 'Libro digital',
       link:
         'https://sede.educacion.gob.es/publiventa/PdfServlet?pdf=VP17667.pdf&area=E',
     },
     {
-      texto: 'Aprendizaje basado en proyectos (ABP)',
+      texto:
+        'Conecta13. (2020, 17 febrero). Canvas para el diseño de proyectos. Conecta 13.',
       tipo: 'Página web',
       link: 'https://conecta13.com/canvas/',
     },

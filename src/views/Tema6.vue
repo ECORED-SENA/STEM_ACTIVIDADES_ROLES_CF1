@@ -44,6 +44,8 @@
       figure
         img(src="@/assets/curso/tema6/4.svg", alt="Avatar")
 
+    p.mt-3 La educación STEM recomienda diseñar estrategias de enseñanza y aprendizaje basadas en la indagación guiada y abierta; de esta manera, se desarrollan en los aprendices habilidades del ciudadano del siglo XXI.
+
     .col-md-10.mt-5(style="margin:0 auto")
       .tarjeta.color-primario.p-4
         .row.justify-content-around.align-items-center

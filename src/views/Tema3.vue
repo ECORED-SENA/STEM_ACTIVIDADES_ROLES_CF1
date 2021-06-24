@@ -47,24 +47,24 @@
         .tarjeta-avatar
           img(src='@/assets/curso/tema3/6.svg' alt='AvatarTop')
           .tarjeta(style="background-color:#F3F9FF")
-            .text-center.p-4
-              .h4.text-center.mt-3 Competencia clave
+            .text-center.p-4.pt-0
+              .h4.text-center Competencia clave
               p ¿Qué competencias clave son desarrolladas con sus aprendices?
 
       .col-md-4.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema3/7.svg' alt='AvatarTop')
           .tarjeta(style="background-color:#F3F9FF")
-            .text-center.p-4
-              .h4.text-center.mt-3 Producto final
+            .text-center.p-4.pt-0
+              .h4.text-center Producto final
               p ¿Qué se quiere conseguir? #[br] ¿Qué reto se quiere resolver? #[br] ¿A qué problema se quiere dar solución?
 
       .col-md-4.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema3/8.svg' alt='AvatarTop')
           .tarjeta(style="background-color:#F3F9FF")
-            .text-center.p-4
-              .h4.text-center.mt-3 Recursos
+            .text-center.p-4.pt-0
+              .h4.text-center Recursos
               p ¿Qué personas deben implicarse:  instructores, padres de familia, otros agentes educativos? #[br] ¿Qué otros materiales son necesarios? #[br] ¿Es necesario algún tipo de instalación especial?
 
     .row.mt-5
@@ -72,49 +72,49 @@
         .tarjeta-avatar
           img(src='@/assets/curso/tema3/9.svg' alt='AvatarTop')
           .tarjeta(style="background-color:#F3F9FF")
-            .text-center.p-4
-              .h4.text-center.mt-3 Estándares de aprendizaje
+            .text-center.p-4.pt-0
+              .h4.text-center Estándares de aprendizaje
               p ¿Con qué estándares de aprendizaje evaluables del currículo oficial se pueden relacionar los aprendizajes adquiridos?
 
       .col-md-4.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema3/10.svg' alt='AvatarTop')
           .tarjeta(style="background-color:#F3F9FF")
-            .text-center.p-4
-              .h4.text-center.mt-3 Tareas
+            .text-center.p-4.pt-0
+              .h4.text-center Tareas
               p ¿Qué se debe hacer para alcanzar el producto final?
 
       .col-md-4.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema3/11.svg' alt='AvatarTop')
           .tarjeta(style="background-color:#F3F9FF")
-            .text-center.p-4
-              .h4.text-center.mt-3 Herramientas TIC
-              p ¿Qué apps y herramientas TIC se necesitan? #[br] ¿Qué servicios web se van a usar? #[br] ¿Es posible vincularlos con las tareas
+            .text-center.p-4.pt-0
+              .h4.text-center Herramientas TIC
+              p ¿Qué apps y herramientas TIC se necesitan? #[br] ¿Qué servicios web se van a usar? #[br] ¿Es posible vincularlos con las tareas?
 
     .row.mt-5
       .col-md-4.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema3/12.svg' alt='AvatarTop')
           .tarjeta(style="background-color:#F3F9FF")
-            .text-center.p-4
-              .h4.text-center.mt-3 Métodos de evaluación
+            .text-center.p-4.pt-0
+              .h4.text-center Métodos de evaluación
               p ¿Qué herramientas y estrategias innovadoras de evaluación se van a aplicar?
 
       .col-md-4.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema3/13.svg' alt='AvatarTop')
           .tarjeta(style="background-color:#F3F9FF")
-            .text-center.p-4
-              .h4.text-center.mt-3 Difusión
+            .text-center.p-4.pt-0
+              .h4.text-center Difusión
               p ¿Cómo se va a difundir el  proyecto?
 
       .col-md-4.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema3/14.svg' alt='AvatarTop')
           .tarjeta(style="background-color:#F3F9FF")
-            .text-center.p-4
-              .h4.text-center.mt-3 Agrupamientos/Organización
+            .text-center.p-4.pt-0
+              .h4.text-center Agrupamientos/Organización
               p ¿Cómo se van a agrupar los aprendices? #[br] ¿Cómo se va a organizar el aula?
 
     p.mt-5 El CANVAS está organizado en tres columnas. En el centro, se define la base del proyecto: el producto final, las tareas que permiten llegar a ese producto y cómo se realizará la difusión de este. A partir de aquí, en la columna izquierda, se recoge la relación entre el proyecto de aprendizaje y el currículo, a través de las competencias clave y los estándares de aprendizaje, además de definir uno de los pilares fundamentales de un buen proyecto, la evaluación, entendida siempre como un proceso constante de toma de datos para poder regular el aprendizaje. Finalmente, en la columna de la derecha, se define con precisión la estructura del proyecto, a través de los recursos necesarios, el uso de las TIC y los agrupamientos, y la gestión del ambiente contemplado en el diseño del proyecto de aprendizaje.
@@ -160,5 +160,10 @@ export default {
   }),
 }
 </script>
-
-<style lang="sass" scoped></style>
+<style lang="sass">
+.tarjeta-avatar .tarjeta
+  width:100% !important
+.tarjeta-avatar img
+  width: 93px !important
+  margin-top: 19px !important
+</style>
