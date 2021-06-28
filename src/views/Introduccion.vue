@@ -13,8 +13,9 @@
 
     p.mt-3 Por lo anterior, le sugerimos revisar el siguiente recurso educativo para que usted identifique la ruta de aprendizaje que se propone, con la intención de que analice técnicas didácticas activas acordes con la enseñanza en el modelo STEM. ¿Qué espera para identificar algunas de las metodologías didácticas activas más comunes utilizadas por los instructores en los ambientes de aprendizaje? Adelante con esta experiencia. 
     
-    figure.mt-5
-      img(src="@/assets/curso/introduccion/1.svg", alt="Introducción")
+    figure.mb-5.mt-4
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/lFga44ZGHVo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mt-5 Ahora que usted reconoció el contexto inicial de la experiencia de aprendizaje lo invitamos a continuar con su formación a partir de la siguiente situación.
 

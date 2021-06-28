@@ -17,9 +17,9 @@
               .h5.mb-0 Aprendizaje basado en problemas (ABP)
               p El aprendizaje basado en problemas es un enfoque que arranca con la presentación de un problema para el que los aprendices deben encontrar una respuesta.
             .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('downloads/Infografia CF1 pag 3 2. aprendizaje basado en problemas-1.pdf')" target="_blank" style="background-color:#42E0E6;color:#12263f!important;")
-                span(style="color:#12263f!important;") Ver infografía
-                i.fas.fa-file-download(style="color:#12263f!important;")
+              a.boton.boton--b.color-acento-secundario(:href="obtenerLink('downloads/Infografia CF1 pag 3 2. aprendizaje basado en problemas-1.pdf')" target="_blank")
+                span Ver infografía
+                i.fas.fa-file-download
 
     p.mt-5 A continuación, se ha diseñado un recurso de aprendizaje con el paso a paso del proceso de aprendizaje ABP. #[br] ¿Cuáles son los pasos que se deben realizar? Adelante con la exploración.
 
